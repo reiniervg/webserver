@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Python server index page</title>
+</head>
+<body>
+<h2>Hello World from RPI (HTML) !</h2>
+<form action="cgi-bin/vbles.py" method="get">
+
+    <!--HOBBY/NAAM OPVANGEN -->
+    <label for="fname">Hobby:</label><br>
+    <input type="text" id="fname" name="hobby"><br>
+    <label for="fname">Voornaam:</label><br>
+    <input type="text" id="fname" name="first_name"><br>
+    <label for="fname">Tussenvoegsel:</label><br>
+    <input type="text" id="fname" name="tussenvoegsel"><br>
+    <label for="fname">Achternaam:</label><br>
+    <input type="text" id="fname" name="achter_name"><br>
+
+
+    <!--VAK OPVANGEN -->
+    <label for="vak1">PRG:</label><br>
+    <input type="radio" id="vak1" name="vakken" value="PRG"><br>
+    <label for="vak1">DAB:</label><br>
+    <input type="radio" id="vak1" name="vakken" value="DAB"><br>
+    <label for="vak1">NED:</label><br>
+    <input type="radio" id="vak1" name="vakken" value="NED"><br>
+
+
+    <!--GESLACHT OPVANGEN -->
+    <label for="vak1">Geslacht:</label><br>
+    <label for="vak1">Man:</label><br>
+    <input type="radio" id="geslacht" name="Geslacht" value="Man"><br>
+    <label for="vak1">Vrouw:</label><br>
+    <input type="radio" id="geslacht" name="Geslacht" value="Vrouw"><br>
+
+
+    <label for="vak1">Klas:</label><br>
+    <input type="select" id="Klas" name="Klas" value=""><br>
+
+
+
+
+    <!-- SUBMIT  -->
+    <input type="submit" value="submit">
+</form>
+
+</body>
+
+</html>
